@@ -1,0 +1,334 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9dc88d;
+    color: #fff;
+    margin: 0;
+    background-image: linear-gradient(to right, #4d774e , #9dc88d);
+
+}
+#header1{
+    margin: 0%;
+    padding: 0%;
+}
+.container1{
+    margin: 0%;
+    padding: 0%;
+}
+.container1 nav{
+    padding: 1rem 1.2rem;
+    width: 100%;
+    background-image: linear-gradient(to right, #164A41 , #4d774e);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo1 h2{
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+.logo1 h2 span{
+    color: #f1b24a;
+}
+#header1 .navigation ul{
+    display: flex;
+    align-items: center;
+
+}
+#header1 .navigation ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    list-style: none;
+
+}
+#header1 .navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#header1 .navigation ul li a:hover {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 6px 4px;
+    color: #f1b24a;
+    transition: 0.5s;
+}
+#jobs .tab-tiles1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    
+}
+#jobs .tab-tiles1 .img img{
+    height: 20rem;
+    width: auto;
+}
+.topic1{
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+#jobs .tab-tiles1 p{
+    font-size: 3rem;
+    color: #164A41;
+    font-weight: 700;
+}
+#jobs .tab-tiles1 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.topic2{
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+#jobs .tab-tiles2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    
+}
+#jobs .tab-tiles2 .img img{
+    height: 20rem;
+    width: auto;
+}
+#jobs .tab-tiles2 p{
+    font-size: 3rem;
+    color: #164A41;
+    font-weight: 700;
+}
+#jobs .tab-tiles2 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .............jobs........ */
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    background-color: rgb(217, 238, 214);
+    justify-content: center;
+    align-items: center;
+}
+.box .call h3 i{
+    color: #164A41;
+}
+.box .call h3 a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.box .call h3 i span{
+    color: #fff;
+    font-weight: 400;
+}
+.box .border .calling .call{
+    border: 1px solid #164A41;
+    border-radius: 25px;
+    margin-bottom: 4px;
+    padding: 3px;
+    font-size: 1.5rem;
+    background-color: #f1b24a;
+}
+.box .border .calling .call:hover{
+    background-color: #9dc88d;
+}
+.call1 , .call2{
+    width: auto;
+}
+.border{
+    height: 28rem;
+    width: 26rem;
+    margin: 2rem;
+   border:  .1rem solid rgba(0,0,0,.1);
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   margin-bottom: 3rem;
+   display: flex;
+   gap: 2rem;
+   flex-direction: column;
+
+   background-color: rgb(252, 245, 245);
+   
+} 
+.border:hover{
+    border:.1rem solid #164A41;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.image img{
+    height: 20rem;
+
+}
+.calling{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+ 
+
+    .sharee button{
+        border: 1px solid #164A41;
+        border-radius: 20px;
+        margin-bottom: 4px;
+        background-color: #164A41;
+    }
+    .sharee button i{
+        padding: 6px;
+        color: #fff;
+        font-size: 2rem;
+
+    }
+    
+    
+
+/* ...........Contact.......... */
+.name{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 0%;
+}
+.class2{
+    padding: 0.4rem;
+}
+.email1{
+    font-size: 1.6rem;
+    margin-bottom: 0%; 
+}
+.Enquiry{
+    padding: 3rem;
+}
+.check2{
+    font-size: 1.2rem;
+}
+.btn{
+    padding: .8rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    border-radius: 15px;
+    width: 100%;
+    font-weight:600 ;
+    color: #fff;
+    background-color: #164A41;
+}
+.btn:hover{
+    background-color: #f1b24a;
+    color: #164A41;
+}
+#msg{
+    color: #f1b24a;
+    display: block;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+
+
+nav .fa-solid{
+    display: none;
+}
+
+
+@media only screen and (max-width: 640px){
+
+    #jobs .tab-tiles1 p{
+        font-size: 2rem;
+        color: #164A41;
+        font-weight: 600;
+    }
+    #jobs .tab-tiles2 p{
+        font-size: 2rem;
+        color: #164A41;
+        font-weight: 600;
+    }
+    #jobs .tab-tiles1 .img img{
+        height: 15rem;
+        width: auto;
+    }
+    #jobs .tab-tiles2 .img img{
+        height: 15rem;
+        width: auto;
+    }
+    
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #f1b24a;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+     nav ul li{
+        display: block;
+        margin: 25px;
+        padding-top: 15px;
+     }
+     #header1 .navigation ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+     }
+     nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+
+     }
+    
+}
+
+@media only screen and (max-width: 450px){
+    .box .border .calling .call{
+        font-size: 1rem;
+        margin-bottom: 3px;
+        padding: 2px;
+    }
+    .border{
+        height: 29rem;
+        width: 26rem;
+        margin: 1rem;
+        padding: 2rem;
+       gap: 1.5rem;
+    
+    } 
+    .sharee button{
+        border: 1px solid #164A41;
+        border-radius: 20px;
+        margin-bottom: 4px;
+        background-color: #164A41;
+    }
+    .sharee button i{
+        padding: 4px;
+        color: #fff;
+        font-size: 1.4rem;
+
+    }
+    .image{
+        padding-top: 1rem;
+    }
+
+}
